@@ -119,6 +119,8 @@ On November 2 the activated tracker enumerated as `2104:0313` on two Macs. A tob
 
 When testing a helper like this by hand, keep stdin open (for example `sleep 12 | node helper.mjs`) if it reads commands from stdin, or it exits as soon as it sees end of input.
 
+On November 3 I plugged it straight into one Mac's USB 2 port, no hub, and it came up as `2104:0313` again with no activation step. A small WebSocket server on 127.0.0.1 that wraps the same helper passed 332 samples through in 10 seconds, all still empty for the same reasons. That wrapper has the opposite stdin habit: it keeps running after its input closes, so stop it yourself when a test is done.
+
 ## Still unknown
 
 - Whether the trailer alone makes a Mac upload succeed.
