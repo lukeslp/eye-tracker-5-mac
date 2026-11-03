@@ -1,0 +1,16 @@
+~/tobii-et5-installer/fw/et5-blob-1228436.bin: 1228436 bytes, 1 slot(s): 1228436
+slot 0 header: f3 22 6b 5a 00 00 00 00 00 00 00 00 00 00 00 00 47 33 df 4e 94 be 12 00
+stored header:  f3 22 6b 5a 00 00 00 00 00 00 00 00 00 00 00 00 47 33 df 4e 94 be 12 00
+built header matches the one Tobii stores with the blob
+
+=== slot 0: 1228436 bytes ===
+  status=0 state=2 (dfuIDLE) poll=100ms written=0  [00 64 00 00 02 00 00 00 00 00]
+  DNLOAD header (24 bytes)
+  status=0 state=3 (dfuDNLOAD-SYNC) poll=100ms written=0  [00 64 00 00 03 00 00 00 00 00]
+  DNLOAD size=1228436
+  bulk 131040 / 1228436 (10.7%)  bulk 262080 / 1228436 (21.3%)  bulk 393120 / 1228436 (32.0%)  bulk 524160 / 1228436 (42.7%)  bulk 655200 / 1228436 (53.3%)  bulk 786240 / 1228436 (64.0%)  bulk 917280 / 1228436 (74.7%)  bulk 1048320 / 1228436 (85.3%)  bulk 1179360 / 1228436 (96.0%)  bulk 1228436 / 1228436 (100.0%)  done in 0.1s, 300 chunks
+  status=0 state=3 (dfuDNLOAD-SYNC) poll=100ms written=0  [00 64 00 00 03 00 00 00 00 00]
+  status=0 state=5 (dfuDNLOAD-IDLE) poll=100ms written=0  [00 64 00 00 05 00 00 00 00 00]
+  DNLOAD 0 (manifest trigger)
+  poll 0 t=0.0s state=10 (dfuERROR) status=9
+error: device went to dfuERROR

@@ -1,0 +1,9 @@
+{
+  "name": "eye-tracker-5-mac",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Activation notes and tools for the Tobii Eye Tracker 5 on macOS",
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "dependencies": { "usb": "^2.15.0" }
+}

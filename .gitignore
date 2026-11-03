@@ -1,0 +1,11 @@
+# Tobii firmware and anything that contains it: local only
+*.bin
+*.msi
+*.cab
+*.pcap
+*.pcapng
+captures/
+tools/extract_firmware
+.DS_Store
+__pycache__/
+node_modules/
